@@ -225,6 +225,7 @@ function! PSCIDEstart(silent)
 	\ "-d", dir,
 	\ "src/**/*.purs",
 	\ "bower_components/**/*.purs",
+	\ ".psc-package/**/*.purs",
 	\ ]
 
   exe "lcd" dir
